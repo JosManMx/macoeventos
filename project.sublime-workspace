@@ -1,0 +1,929 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"html5",
+				"html5\thtml5-snippet"
+			],
+			[
+				"ma",
+				"mare\tmax-resolution"
+			],
+			[
+				"bgr",
+				"bgr:n\tbackground-repeat:no-repeat"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"s",
+				"Windows/"
+			],
+			[
+				"to",
+				"toArray\t.toArray()"
+			],
+			[
+				"tog",
+				"toggle\t.toggle()"
+			],
+			[
+				"bc",
+				"background-repeat"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"in",
+				"initial"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"li",
+				"list-item"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"mi",
+				"miSlide"
+			],
+			[
+				"co",
+				"container"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"BORDER",
+				"border-right"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"colmd",
+				"col-md-6"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"bloc",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"num",
+				"num"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"bordercol",
+				"border-color"
+			],
+			[
+				"M",
+				"Montserrat"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"textl",
+				"text-align"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"inlin",
+				"inline"
+			],
+			[
+				"text-a",
+				"text-align-last"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"f",
+				"font"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"list-style-",
+				"list-style-type"
+			],
+			[
+				"type",
+				"list-style-type"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"WI",
+				"width"
+			],
+			[
+				"el",
+				"elevado"
+			],
+			[
+				"do",
+				"division"
+			],
+			[
+				"res",
+				"resta"
+			],
+			[
+				"numero",
+				"numero2"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"div",
+				"división"
+			],
+			[
+				"parte",
+				"parte_entera"
+			],
+			[
+				"part",
+				"parte_entera"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"PADDI",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"mj",
+				"mjbutton\tMJML - MJML Button"
+			],
+			[
+				"list-s",
+				"list-s\tlist-style-type: square;"
+			],
+			[
+				"border-radius",
+				"border-bottom-right-radius"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"top",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"red",
+				"redimensionar"
+			],
+			[
+				"met",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 323.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet: a",
+				"Snippet: a()"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"style",
+				"Snippet: link - stylesheet"
+			],
+			[
+				"inta",
+				"Package Control: Install Package"
+			],
+			[
+				"show",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"conso",
+				"Set Syntax: Console"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"packake",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"live",
+				"LiveReload: Help"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"package control ",
+				"Package Control: Install Package"
+			],
+			[
+				"text",
+				"Set Syntax: Textile"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"install package ",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 422.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/JoséRafael/Favorites/Vínculos/pag macoevento/Desarrollo"
+	],
+	"file_history":
+	[
+		"/C/Users/JoséRafael/Favorites/Vínculos/pag macoevento/Desarrollo/js/initial.js",
+		"/C/Users/JoséRafael/Desktop/workana.txt",
+		"/C/Users/JoséRafael/Downloads/bootstrap-sass-3.3.7/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_mixins.scss",
+		"/C/Users/JoséRafael/Favorites/Vínculos/Aplicaciones o plugins sobre programacion.txt",
+		"/D/Torrent/release_Remix_OS_for_PC_32-bit_Beta_Version_Package/Remix OS for PC 32-bit Beta Version Package/How to Launch Remix OS for PC.txt",
+		"/C/Users/JoséRafael/Desktop/index.jade",
+		"/C/Users/JoséRafael/Desktop/index.html",
+		"/C/Users/JoséRafael/Desktop/Piriform.Recuva.v1.51.1063.FREE.TECH.Multilingual.With.Portable.Incl.Keymaker-CORE/Instrucciones.txt",
+		"/C/Users/JoséRafael/Downloads/bootstrap-sass-3.3.7/bootstrap-sass-3.3.7/templates/project/styles.sass",
+		"/C/Users/JoséRafael/Desktop/Piriform.Recuva.v1.51.1063.FREE.TECH.Multilingual.With.Portable.Incl.Keymaker-CORE/License.txt",
+		"/C/Users/JoséRafael/Desktop/ruby/css/style.css",
+		"/C/Users/JoséRafael/Desktop/ruby/scss/style.scss",
+		"/D/Torrent/Udemy - Excel 2013 Basico e Intermedio.www.INTERCAMBIOSVIRTUALES.org/Información.txt",
+		"/D/Torrent/Udemy - Excel 2013 Basico e Intermedio.www.INTERCAMBIOSVIRTUALES.org/01 Conociendo el Entorno de Excel/001 Ejercicios del Curso. Descarga este archivo para comenzar.txt",
+		"/C/Users/JoséRafael/Desktop/ruby/style.scss",
+		"/C/Users/JoséRafael/Desktop/ruby/style.css",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/ruby/style.scss",
+		"/C/Users/JoséRafael/Desktop/Nueva carpeta/index.html",
+		"/C/Users/JoséRafael/Desktop/style.css",
+		"/C/Users/JoséRafael/Desktop/flexbox/susana.sublime-workspace",
+		"/C/Users/JoséRafael/Desktop/flexbox/susana.sublime-project",
+		"/C/Users/JoséRafael/Desktop/flexbox/style.scss",
+		"/C/Users/JoséRafael/Desktop/flexbox/index.jade",
+		"/C/Users/JoséRafael/Desktop/susana.sublime-project",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/css/materialize.min.css",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/sass/materialize.scss",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/sass/components/date_picker/_default.scss",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/css/materialize.css",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/sass/components/_variables.scss",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/a.css",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/sass/components/_roboto.scss",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/2.scss",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Videocursos por lenguaje de programacion/Escuela Digital/ESCUELA DIGITAL Curso.Sass.Desde.Cero/Curso.Sass.Desde.Cero/01/1.scss",
+		"/C/Users/JoséRafael/Downloads/materialize-src-v0.97.8/materialize-src/sass/materialize.scss",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp42593/public_html/wp-config.php",
+		"/C/Users/JoséRafael/AppData/Roaming/Telegram Desktop/tdata/shortcuts-default.json",
+		"/C/Users/JoséRafael/Desktop/flexbox/README.md",
+		"/C/Users/JoséRafael/Desktop/section.css",
+		"/C/Users/JoséRafael/Desktop/flexbox/EDgrid-master/EDgrid-master/components/_base.scss",
+		"/C/Users/JoséRafael/Desktop/flexbox/style/_base.scss",
+		"/C/Users/JoséRafael/Desktop/flexbox/EDgrid-master/EDgrid-master/test/index.html",
+		"/C/Users/JoséRafael/Desktop/flexbox/EDgrid-master/EDgrid-master/ed-grid.scss",
+		"/C/Users/JoséRafael/Desktop/flexbox/style.css",
+		"/C/Users/JoséRafael/Desktop/flexbox/estilo.css",
+		"/C/Users/JoséRafael/Desktop/flexbox/pruebas.html",
+		"/C/Users/JoséRafael/Desktop/flexbox/index.html",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/JoséRafael/Desktop/flexbox/hola.css",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/Solarized Toggle/SolarizedToggle.sublime-settings",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/JoséRafael/style.css",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/C/Users/JoséRafael/__init__.py",
+		"/C/Users/JoséRafael/Desktop/script.js",
+		"/C/Users/JoséRafael/Desktop/hjgkfld.html",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/MultiEditUtils/Default (Windows).sublime-keymap",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/User/LiveStyle.sublime-settings",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/LiveStyle/LiveStyle.sublime-settings",
+		"/C/Users/JoséRafael/Desktop/autorecargar-snippet.sublime-snippet",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/User/html5-snippet.sublime-snippet",
+		"/C/Users/JoséRafael/AppData/Roaming/Sublime Text 3/Packages/User/autorecargar-snippet.sublime-snippet",
+		"/C/Users/JoséRafael/Desktop/flexbox/index.pug",
+		"/C/xampp/htdocs/wordpress-4.6.1/wordpress/wp-config-sample.php",
+		"/C/xampp/htdocs/wordpress-4.6.1/wordpress/wp-content/themes/twentyfifteen/functions.php",
+		"/C/xampp/htdocs/wordpress-4.6.1/wordpress/wp-content/themes/twentyfifteen/prueba-plantilla.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp49590/public_html/wp-content/themes/nordic/assets/img/nordic.png",
+		"/F/Drive.bat",
+		"/C/Users/JoséRafael/Downloads/TiltHoverEffects-master/index.html",
+		"/C/Users/JoséRafael/Downloads/TiltHoverEffects-master/css/normalize.css",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp12574/public_html/wp-content/themes/oteroweb/style.css",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp12263/public_html/wp-content/themes/oteroweb/header.php",
+		"/C/xampp/htdocs/phppoo/Video 08/index.php",
+		"/C/Users/JoséRafael/Desktop/Nueva carpeta/index.js",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp27171/public_html/wp-content/themes/oteroweb/template-blog.php",
+		"/C/xampp/htdocs/phppoo/Video 09/index.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp28363/public_html/wp-content/themes/oteroweb/template-blog2.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp59519/public_html/wp-content/themes/nordic/template-blog.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp19655/public_html/wp-content/themes/oteroweb/template-contact.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp19299/public_html/wp-content/themes/nordic/template-contact.php",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Ejercicios y producciones sobre computacion/Miriadax Ejercicios HTML ed6/mod_09/Ejercicio/style.css",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp30206/public_html/wp-content/themes/oteroweb/template-download.php",
+		"/D/Crecimiento Personal y Estudios/Estudios Independientes/Programacion Informatica/Ejercicios y producciones sobre computacion/Miriadax Ejercicios HTML ed6/mod_09/Ejercicio/scripts/scripts.js",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp50151/public_html/wp-content/themes/oteroweb/style.css",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp28720/public_html/wp-content/themes/oteroweb/functions.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp41922/public_html/wp-content/themes/oteroweb/template-home-slider.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp10644/public_html/wp-content/themes/oteroweb/slider.js",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp09122/public_html/wp-content/themes/oteroweb/footer.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp41725/public_html/wp-content/themes/oteroweb/template-home-sliderold.php",
+		"/C/xampp/htdocs/phppoo/Video 04/Clase4.php",
+		"/C/xampp/htdocs/phppoo/Video 05/index.php",
+		"/C/Users/JoséRafael/Desktop/mod_09/mod9oblig.html",
+		"/C/xampp/htdocs/phppoo/Clase4.php",
+		"/C/Users/JoséRafael/Desktop/mod_09/Ejercicio/index.html",
+		"/C/Users/JoséRafael/Desktop/mod_09/mod_09/index.html",
+		"/C/Users/JoséRafael/Desktop/mod_09/mod_09/30_clock_CSS_a.html",
+		"/C/Users/JoséRafael/Desktop/mod_08/ejercicio/index.html",
+		"/C/Users/JoséRafael/Desktop/mod_09/mod_09/00-geolocation.html",
+		"/C/Users/JoséRafael/Desktop/mod_09/mod_09/05-geo_marker.html",
+		"/C/Users/JoséRafael/Desktop/mod_09/mod_09/06-geo_routes.html",
+		"/C/Users/JoséRafael/Desktop/mod_09/mod_09/01-geolocation2.html",
+		"/C/Users/JoséRafael/Desktop/mod_08/ejercicio/css/citas_slide.css",
+		"/C/Users/JoséRafael/Desktop/mod_08/ejercicio/javascript/editar.js",
+		"/C/Users/JoséRafael/Desktop/mod8oblig.html",
+		"/C/Users/JoséRafael/Desktop/mod_07/50-citas_editar/index.html",
+		"/C/Users/JoséRafael/Desktop/mod_07/50-citas_editar/javascript/galeria.js",
+		"/C/Users/JoséRafael/Desktop/mod_07/50-citas_editar/css/citas_slide.css",
+		"/C/Users/JoséRafael/Desktop/mod_07/50-citas_editar/javascript/editar.js",
+		"/C/Users/JoséRafael/Desktop/mod_07/mod_07/50-citas_editar/citas_slide_editar_jQuery.html",
+		"/C/Users/JoséRafael/Desktop/mod_07/mod_07/50-citas_editar/javascript/galeria.js",
+		"/C/Users/JoséRafael/Desktop/mod_07/cop/javascript/jquery-2.1.4.min.js",
+		"/C/Users/JoséRafael/Desktop/mod_07/cop/javascript/galeria.js",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp59576/public_html/wp-content/themes/oteroweb/template-home-slider.php",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp29213/public_html/wp-content/themes/oteroweb/template-blog.php",
+		"/C/Users/JoséRafael/AppData/Local/Microsoft/Windows/INetCache/IE/SFGSW5O7/00001[1].vcf",
+		"/C/Users/JoséRafael/Desktop/00001.vcf",
+		"/C/Users/JoséRafael/Favorites/Vínculos/materialize-v0.97.8/materialize/index.html",
+		"/C/Users/JoséRafael/Favorites/Vínculos/materialize-v0.97.8/materialize/css/materialize.css",
+		"/C/Users/JoséRafael/Desktop/hola",
+		"/C/Users/JoséRafael/Desktop/Nueva carpeta/hola.css",
+		"/C/Users/JoséRafael/Desktop/Nueva carpeta/index.jade",
+		"/C/Users/JoséRafael/Desktop/Nueva carpeta/prueba.html",
+		"/C/Users/JoséRafael/AppData/Local/Temp/scp28621/public_html/wp-content/themes/oteroweb/single-post.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\02"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			"menu",
+			"KRINKESDECORPERSONAL.TTF",
+			"a",
+			"=\"../",
+			"/img",
+			"li |",
+			"flex-end",
+			"just",
+			"border",
+			"sidebar",
+			"color",
+			"black",
+			"slider ul",
+			"#slider ul li",
+			"media",
+			"slider ul li",
+			"100vh",
+			"100",
+			"\";",
+			"    public function vaciarTanque(){\n\n    }\n",
+			"Automovil",
+			"cargau",
+			"error",
+			"getRoutes",
+			"addmark",
+			"set",
+			"map",
+			"}",
+			"  <",
+			"enla",
+			"editar",
+			"contentEditable",
+			"botones",
+			"menu",
+			"editar",
+			"<strong>Regenerar Citas</stron",
+			"<img src=\"img/carat-d-white.svg\" alt=\"\">",
+			"visitas",
+			"visita",
+			"bod",
+			"footer",
+			"guardar",
+			"nuevo",
+			"botones",
+			"back",
+			"audio/ogg",
+			"text",
+			"justify",
+			"just",
+			"100%",
+			"color",
+			"col",
+			"row .col",
+			"row",
+			"padding",
+			"font-size",
+			"padding",
+			".row .col",
+			"0.75",
+			"padding",
+			"indent",
+			"ind",
+			"indent",
+			"laboris",
+			"Lorem",
+			"ipsum",
+			"comm",
+			"comen",
+			"slider",
+			"slideWidth",
+			"project-slider",
+			".project",
+			".project_slider",
+			"slider",
+			"$image",
+			"$t",
+			"image",
+			"100%",
+			"img",
+			"mayus",
+			"prev-slide",
+			"slider",
+			"next-slide",
+			"slider-arrows",
+			"slider-h",
+			"contac",
+			"contat",
+			"conta",
+			"contac",
+			"#s",
+			"slider",
+			"slid",
+			"navbar",
+			"margin-top: 0",
+			"margin",
+			"hover",
+			"slider ul li",
+			"next",
+			"control",
+			"interlineadonormal",
+			"SecondWord",
+			"SecondWord ",
+			"slider",
+			"slider_o",
+			"slider_",
+			"slider_o",
+			"slider_",
+			"slider_o",
+			"slider_op",
+			"slider_option",
+			"bet",
+			"enu-toggle visible-xs visible-s",
+			"\"menu-toggle visible-xs visible-sm",
+			"\"menu-toggle visible-xs visible-sm\" ",
+			"navegacion",
+			"related",
+			"textocentral",
+			"moveri",
+			"move",
+			"t).ready(function ($) {",
+			"t).ready(function ($) {\n\n  $('#checkbox').change(fu",
+			"auto",
+			"100px",
+			"cover",
+			"is_home",
+			"is_homme",
+			"if(is"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 182.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Default/Syntax Tests.sublime-build",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
