@@ -7,71 +7,109 @@ html
 		meta(name="keywords", content="Fiestas, eventos, boda, matrimonios, despedidas, soltero, venezuela, lara, barquisimeto")
 		meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;")
 		link(rel="stylesheet", href="http://fonts.googleapis.com/icon?family=Material+Icons", type="text/css")
+		link(href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Ranga:400", rel="stylesheet")
 		link(rel="stylesheet", href="css/materialize.min.css", type="text/css")
+		link(rel="stylesheet", href="icons/icons.css")
+
 	body
 		header
 			.container
-				img(src="http://lorempixel.com/200/200/", alt="")
-				h3.slogan ...¡tu slogan debe ir aqui!
-				nav
-					ul
-						li Inicio
-						li Servicios
-						li Promociones
-						li Contacto
-		
-		.container
-			section.slider
-				.container
-					img(src="http://lorempixel.com/600/400/", alt="")
-			section.content
-				h2 Lorem ipsum dolor sit amet.
-				article
-					img(src="http://lorempixel.com/400/200/", alt="")
-					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.
-				article
-					img(src="http://lorempixel.com/400/200/", alt="")
-					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore. Veritatis dignissimos quibusdam explicabo quas minus tempora sequi officia, deserunt alias beatae, officiis, ipsum adipisci soluta libero laboriosam ea eius.
-
-			section
 				.row.valign-wrapper
-					form.col.s6
-						.row
-							.input-field.col.s12
-								input#icon_prefix.validate(type="text")
-								label(for="icon_prefix") Nombre Completo
-							.input-field.col.s12
-								input#email.validate(type="email")
-								label(for="email" data-error="El correo es incorrecto" data-success="Es Correcto") Email
-							.input-field.col.s12
-								input#tel.validate(type="tel")
-								label(for="tel") Número de Telefono
-							.input-field.col.s12
-								input#textarea1.materialize-textarea
-								label(for="textarea1") Descripcion de su Solicitud
-					.col.s6
-							h2.valign.center-align Solicita tu cotizacion en Linea
+					img(src="img/logo.png", alt="").logo.responsive-img
+					.col.l12.center-align
+						h3.slogan__text.valign.right-align ...¡tu slogan debe ir aqui!
+			nav
+				.container
+					.nav-wrapper
+						ul#nav-mobile.right.hide-on-med-and-down.uppercase
+							li.nav__item 
+								a Inicio
+							li.nav__item
+								a Servicios
+							li.nav__item
+								a Promociones
+							li.nav__item 
+								a Contacto
+		
+		.container.content
+			section.slider
+				img(src="http://lorempixel.com/970/400/", alt="").responsive-img
+			section
+				h4.center-align.uppercase Tenemos los mejores servicios
+				.maincontent
+					article
+							.row.valign-wrapper
+								.col.l4.s12.offset-l1.article__img
+									img.responsive-img(src="http://lorempixel.com/400/300/", alt="")
+								.col.l6.s12.article__text
+									p.center-align Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.
+								.col.l1
+					article
+							.row.valign-wrapper
+								.col.l1
+								.col.l6.s12.article__text
+									p.center-align Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.
+								.col.l4.s12.article__img
+									img.responsive-img(src="http://lorempixel.com/400/300/", alt="")
+								.col.l1
+
+			section.waitlist
+				.container
+					.row.valign-wrapper
+						form.col.l6.s12.waitlist__form
+							.row
+								.input-field.col.l12
+									input#icon_prefix.validate(type="text")
+									label(for="icon_prefix") Nombre Completo
+								.input-field.col.l12
+									input#email.validate(type="email")
+									label(for="email" data-error="El correo es incorrecto" data-success="Es Correcto") Email
+								.input-field.col.l12
+									input#tel.validate(type="tel")
+									label(for="tel") Número de Telefono
+								.input-field.col.l12
+									textarea#textarea1.materialize-textarea
+									label(for="textarea1").white-text Descripción de su Solicitud
+								.col.s6
+								.col.s6
+									button.btn.waves-effect.waves-macodarkblue.white.macodarkblue-text.tooltipped(type="submit", name="action", data-position="left", data-delay="50", data-tooltip="Gracias por confiar en nosotros") Enviar
+						.col.l6.s12.waitlist__text
+								h4.valign.center-align.uppercase Solicita tu cotización en Linea
 
 			section
 				.row
-					h2 Nuestros clientes nos respaldan
-					img(src="http://lorempixel.com/800/200/", alt="")
+					.container
+						h4.center-align.uppercase Nuestros clientes nos respaldan
+						img(src="http://lorempixel.com/800/200/", alt="").responsive-img
 				
-			footer
-				.col.s5
-					p Recuerda Agregarnos a tus redes Sociales
-				.col.s7
-					i.facebook
-					a Maco Eventos
-					i.twitter
-					a @macoeventos
-					i.whatsapp
-					a Maco Eventos
-					i.phone
-					a Maco Eventos
-			.postfooter
-				p.right-align Sitio Web Diseñado y Desarrollado por JosTech
-			
+			footer.page-footer
+				.container
+					.row.withoutmargin.valign-wrapper
+						.col.s4
+							p.white-text.uppercase.left-align Recuerda Agregarnos a tus redes Sociales
+						.col.s4
+							ul.glyphs.character-mapping
+								li
+									a(href="#").social
+										i.icon.icon-facebook
+										p.white-text Maco Eventos
+								li
+									a(href="#").social
+										i.icon.icon-twitter
+										p.white-text @macoeventos
+						.col.s4
+							ul
+								li
+									a(href="#").social
+										i.icon.icon-whatsapp
+										p.white-text +58 416 - 758.89.41
+								li
+									a(href="#").social
+										i.icon.icon-phone
+										p.white-text +58 416 - 758.89.41
+				.footer-copyright
+					p.right-align.withoutmargin.uppercase Sitio Web Diseñado y Desarrollado por JosTech
+		
 		script(type="text/javascript", src="https://code.jquery.com/jquery-2.1.1.min.js")
 		script(type="text/javascript", src="js/bin/materialize.min.js")
 

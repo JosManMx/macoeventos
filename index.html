@@ -7,76 +7,126 @@
     <meta name="keywords" content="Fiestas, eventos, boda, matrimonios, despedidas, soltero, venezuela, lara, barquisimeto">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
     <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Ranga:400" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.min.css" type="text/css">
+    <link rel="stylesheet" href="icons/icons.css">
   </head>
   <body>
     <header>
-      <div class="container"><img src="http://lorempixel.com/200/200/" alt="">
-        <h3 class="slogan">...¡tu slogan debe ir aqui!</h3>
-        <nav>
-          <ul>
-            <li>Inicio</li>
-            <li>Servicios</li>
-            <li>Promociones</li>
-            <li>Contacto</li>
-          </ul>
-        </nav>
+      <div class="container">
+        <div class="row valign-wrapper"><img class="logo responsive-img" src="img/logo.png" alt="">
+          <div class="col l12 center-align">
+            <h3 class="slogan__text valign right-align">...¡tu slogan debe ir aqui!</h3>
+          </div>
+        </div>
       </div>
+      <nav>
+        <div class="container">
+          <div class="nav-wrapper">
+            <ul class="right hide-on-med-and-down uppercase" id="nav-mobile">
+              <li class="nav__item"> <a>Inicio</a></li>
+              <li class="nav__item"><a>Servicios</a></li>
+              <li class="nav__item"><a>Promociones</a></li>
+              <li class="nav__item"> <a>Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <div class="container">
-      <section class="slider">
-        <div class="container"><img src="http://lorempixel.com/600/400/" alt=""></div>
-      </section>
-      <section class="content">
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <article><img src="http://lorempixel.com/400/200/" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.</p>
-        </article>
-        <article><img src="http://lorempixel.com/400/200/" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, labore. Veritatis dignissimos quibusdam explicabo quas minus tempora sequi officia, deserunt alias beatae, officiis, ipsum adipisci soluta libero laboriosam ea eius.</p>
-        </article>
-      </section>
+    <div class="container content">
+      <section class="slider"><img class="responsive-img" src="http://lorempixel.com/970/400/" alt=""></section>
       <section>
-        <div class="row valign-wrapper">
-          <form class="col s6">
-            <div class="row">
-              <div class="input-field col s12">
-                <input class="validate" id="icon_prefix" type="text">
-                <label for="icon_prefix">Nombre Completo</label>
+        <h4 class="center-align uppercase">Tenemos los mejores servicios</h4>
+        <div class="maincontent">
+          <article>
+            <div class="row valign-wrapper">
+              <div class="col l4 s12 offset-l1 article__img"><img class="responsive-img" src="http://lorempixel.com/400/300/" alt=""></div>
+              <div class="col l6 s12 article__text">
+                <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.</p>
               </div>
-              <div class="input-field col s12">
-                <input class="validate" id="email" type="email">
-                <label for="email" data-error="El correo es incorrecto" data-success="Es Correcto">Email</label>
-              </div>
-              <div class="input-field col s12">
-                <input class="validate" id="tel" type="tel">
-                <label for="tel">Número de Telefono</label>
-              </div>
-              <div class="input-field col s12">
-                <input class="materialize-textarea" id="textarea1">
-                <label for="textarea1">Descripcion de su Solicitud</label>
-              </div>
+              <div class="col l1"></div>
             </div>
-          </form>
-          <div class="col s6">
-            <h2 class="valign center-align">Solicita tu cotizacion en Linea</h2>
+          </article>
+          <article>
+            <div class="row valign-wrapper">
+              <div class="col l1"></div>
+              <div class="col l6 s12 article__text">
+                <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.</p>
+              </div>
+              <div class="col l4 s12 article__img"><img class="responsive-img" src="http://lorempixel.com/400/300/" alt=""></div>
+              <div class="col l1"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="waitlist">
+        <div class="container">
+          <div class="row valign-wrapper">
+            <form class="col l6 s12 waitlist__form">
+              <div class="row">
+                <div class="input-field col l12">
+                  <input class="validate" id="icon_prefix" type="text">
+                  <label for="icon_prefix">Nombre Completo</label>
+                </div>
+                <div class="input-field col l12">
+                  <input class="validate" id="email" type="email">
+                  <label for="email" data-error="El correo es incorrecto" data-success="Es Correcto">Email</label>
+                </div>
+                <div class="input-field col l12">
+                  <input class="validate" id="tel" type="tel">
+                  <label for="tel">Número de Telefono</label>
+                </div>
+                <div class="input-field col l12">
+                  <textarea class="materialize-textarea" id="textarea1"></textarea>
+                  <label class="white-text" for="textarea1">Descripción de su Solicitud</label>
+                </div>
+                <div class="col s6"></div>
+                <div class="col s6">
+                  <button class="btn waves-effect waves-macodarkblue white macodarkblue-text tooltipped" type="submit" name="action" data-position="left" data-delay="50" data-tooltip="Gracias por confiar en nosotros">Enviar</button>
+                </div>
+              </div>
+            </form>
+            <div class="col l6 s12 waitlist__text">
+              <h4 class="valign center-align uppercase">Solicita tu cotización en Linea</h4>
+            </div>
           </div>
         </div>
       </section>
       <section>
         <div class="row">
-          <h2>Nuestros clientes nos respaldan</h2><img src="http://lorempixel.com/800/200/" alt="">
+          <div class="container">
+            <h4 class="center-align uppercase">Nuestros clientes nos respaldan</h4><img class="responsive-img" src="http://lorempixel.com/800/200/" alt="">
+          </div>
         </div>
       </section>
-      <footer>
-        <div class="col s5">
-          <p>Recuerda Agregarnos a tus redes Sociales</p>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row withoutmargin valign-wrapper">
+            <div class="col s4">
+              <p class="white-text uppercase left-align">Recuerda Agregarnos a tus redes Sociales</p>
+            </div>
+            <div class="col s4">
+              <ul class="glyphs character-mapping">
+                <li><a class="social" href="#"><i class="icon icon-facebook"></i>
+                    <p class="white-text">Maco Eventos</p></a></li>
+                <li><a class="social" href="#"><i class="icon icon-twitter"></i>
+                    <p class="white-text">@macoeventos</p></a></li>
+              </ul>
+            </div>
+            <div class="col s4">
+              <ul>
+                <li><a class="social" href="#"><i class="icon icon-whatsapp"></i>
+                    <p class="white-text">+58 416 - 758.89.41</p></a></li>
+                <li><a class="social" href="#"><i class="icon icon-phone"></i>
+                    <p class="white-text">+58 416 - 758.89.41</p></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col s7"><i class="facebook"></i><a>Maco Eventos</a><i class="twitter"></i><a>@macoeventos</a><i class="whatsapp"></i><a>Maco Eventos</a><i class="phone"></i><a>Maco Eventos</a></div>
+        <div class="footer-copyright">
+          <p class="right-align withoutmargin uppercase">Sitio Web Diseñado y Desarrollado por JosTech</p>
+        </div>
       </footer>
-      <div class="postfooter">
-        <p class="right-align">Sitio Web Diseñado y Desarrollado por JosTech</p>
-      </div>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/bin/materialize.min.js"></script>

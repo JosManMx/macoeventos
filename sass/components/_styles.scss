@@ -1,0 +1,120 @@
+
+body{
+	background-image: url("../img/motivo.png");
+}
+header{
+	background-color: $azulclaro;
+}
+.logo{
+	position: absolute;
+	top: 0em;
+	left: 15%;
+	width: 250px;
+	height: auto;
+}
+.slogan__text{
+	font-family: "Ranga";
+	color:white;
+	margin-right:1rem;
+	font-weight: 100;
+
+}
+nav{
+	background-color: $azuloscuro;
+	.nav__item{
+		font-family: "Montserrat";
+		font-weight: 700;
+	}
+}
+
+.content{
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 13px rgba(0,0,0,.63);
+	-moz-box-shadow: 0 0 13px rgba(0,0,0,.63);
+	box-shadow: 0 0 13px rgba(0,0,0,.63);
+}
+.uppercase{
+	text-transform:uppercase;
+	font-weight: 700;
+}
+.waitlist{
+	background-color: $azuloscuro;
+	&__form .row .input{
+		margin-left: 0;
+		color: #fff;
+	}
+	&__text{
+		color: #fff;
+		font-family:Montserrat;
+		font-weight: 700;
+	}
+}
+
+
+.macodarkblue{
+	background-color: $azuloscuro;
+	&-text{
+		color:$azulclaro;
+	}
+	&:hover{
+		color:white;
+	}
+}
+
+//EFECTO BOTON COLOR AZUL OSCURO
+  .waves-effect.waves-macodarkblue .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: $azuloscuro;
+    }
+
+
+  /* label color */
+   .input-field label {
+     color: #fff;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label, 
+   .input-field input[type=email]:focus + label,
+   .input-field input[type=tel]:focus + label {
+     color: #fff;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus,
+   .input-field input[type=email]:focus,
+   .input-field input[type=tel]:focus,
+   textarea:focus {
+     border-bottom: 1px solid #fff;
+     box-shadow: 0 1px 0 0 #fff;
+     color: #fff;
+   }
+   /* valid color */
+   .input-field input[type=text].valid,
+   .input-field input[type=email].valid,
+   .input-field input[type=tel].valid,
+   textarea {
+     border-bottom: 1px solid #fff;
+     box-shadow: 0 1px 0 0 #fff;
+     color: #fff;
+   }
+   /* invalid color */
+   .input-field input[type=email].invalid, 
+   textarea {
+     border-bottom: 1px solid #fff;
+     box-shadow: 0 1px 0 0 #fff;
+     color:white;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active,
+   textarea {
+     color: #fff;
+   }
+   textarea.materialize-textarea:focus{
+   	border-bottom: 1px solid #fff!important;
+   	box-shadow: 0 1px 0 0 #fff!important;
+   }
+
+.withoutmargin{
+	margin:0;
+}
+
