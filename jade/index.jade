@@ -10,6 +10,8 @@ html
 		link(href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Ranga:400", rel="stylesheet")
 		link(rel="stylesheet", href="css/materialize.min.css", type="text/css")
 		link(rel="stylesheet", href="icons/icons.css")
+		script(type="text/javascript", src="https://code.jquery.com/jquery-2.1.1.min.js")
+		script(type="text/javascript", src="js/bin/materialize.min.js")
 
 	body
 		header
@@ -32,8 +34,13 @@ html
 								a Contacto
 		
 		.container.content
-			section.slider
-				img(src="http://lorempixel.com/970/400/", alt="").responsive-img
+			.carousel.carousel-slider
+				a.carousel-item
+					img(src="img/slider-01.jpg", alt="" href="#one!")
+				a.carousel-item
+					img(src="img/slider-02.jpg", alt="" href="#two!")
+				a.carousel-item
+					img(src="img/slider-03.jpg", alt="" href="#three!")
 			section
 				h4.center-align.uppercase Tenemos los mejores servicios
 				.maincontent
@@ -80,7 +87,35 @@ html
 				.row
 					.container
 						h4.center-align.uppercase Nuestros clientes nos respaldan
-						img(src="http://lorempixel.com/800/200/", alt="").responsive-img
+					.container
+						.carousel.carousel-slider.center.quote-carousel(data-indicators="true")
+							.carousel-item.black-text(href="#one!")
+								.row
+									.col.m3.s12
+										img.img(src='https://randomuser.me/api/portraits/women/76.jpg')
+									.col.m9.s12
+										blockquote.left-align
+											i.icon.icon-quote-left
+											|   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, odio non laboriosam fugiat qui eos sunt, omnis dolor laborum."
+											h6.left-align - A Proud Customer
+							.carousel-item.black-text(href="#one!")
+								.row
+									.col.m3.s12
+										img.img(src='https://randomuser.me/api/portraits/men/76.jpg')
+									.col.m9.s12
+										blockquote.left-align
+											i.icon.icon-quote-left
+											|    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ratione voluptate perferendis odit, inventore magni eos, quisquam qui possimus, perspiciatis, harum vero accusamus officiis! Obcaecati, aliquid, corporis. Culpa, deleniti, accusantium."
+											h6.left-align - A Proud Customer
+							.carousel-item.black-text(href="#one!")
+								.row
+									.col.m3.s12
+										img.img(src='https://randomuser.me/api/portraits/women/96.jpg')
+									.col.m9.s12
+										blockquote.left-align
+											i.icon.icon-quote-left
+											|   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, odio non laboriosam fugiat qui eos sunt, omnis dolor laborum."
+											h6.left-align - A Proud Customer
 				
 			footer.page-footer
 				.container
@@ -100,16 +135,15 @@ html
 						.col.s4
 							ul
 								li
-									a(href="#").social
+									a.social
 										i.icon.icon-whatsapp
 										p.white-text +58 416 - 758.89.41
 								li
-									a(href="#").social
+									a.social
 										i.icon.icon-phone
 										p.white-text +58 416 - 758.89.41
 				.footer-copyright
 					p.right-align.withoutmargin.uppercase Sitio Web Diseñado y Desarrollado por JosTech
+		script.
+			$('.carousel.carousel-slider').carousel({full_width: true});$('.carousel').carousel('next');$('.carousel').carousel('next', 3); // Move next n times.
 		
-		script(type="text/javascript", src="https://code.jquery.com/jquery-2.1.1.min.js")
-		script(type="text/javascript", src="js/bin/materialize.min.js")
-

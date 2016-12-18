@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Ranga:400" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.min.css" type="text/css">
     <link rel="stylesheet" href="icons/icons.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
   </head>
   <body>
     <header>
@@ -34,7 +36,7 @@
       </nav>
     </header>
     <div class="container content">
-      <section class="slider"><img class="responsive-img" src="http://lorempixel.com/970/400/" alt=""></section>
+      <div class="carousel carousel-slider"><a class="carousel-item"><img src="img/slider-01.jpg" alt="" href="#one!"></a><a class="carousel-item"><img src="img/slider-02.jpg" alt="" href="#two!"></a><a class="carousel-item"><img src="img/slider-03.jpg" alt="" href="#three!"></a></div>
       <section>
         <h4 class="center-align uppercase">Tenemos los mejores servicios</h4>
         <div class="maincontent">
@@ -95,7 +97,41 @@
       <section>
         <div class="row">
           <div class="container">
-            <h4 class="center-align uppercase">Nuestros clientes nos respaldan</h4><img class="responsive-img" src="http://lorempixel.com/800/200/" alt="">
+            <h4 class="center-align uppercase">Nuestros clientes nos respaldan</h4>
+          </div>
+          <div class="container">
+            <div class="carousel carousel-slider center quote-carousel" data-indicators="true">
+              <div class="carousel-item black-text" href="#one!">
+                <div class="row">
+                  <div class="col m3 s12"><img class="img" src="https://randomuser.me/api/portraits/women/76.jpg"></div>
+                  <div class="col m9 s12">
+                    <blockquote class="left-align"><i class="icon icon-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, odio non laboriosam fugiat qui eos sunt, omnis dolor laborum."
+                      <h6 class="left-align">- A Proud Customer</h6>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item black-text" href="#one!">
+                <div class="row">
+                  <div class="col m3 s12"><img class="img" src="https://randomuser.me/api/portraits/men/76.jpg"></div>
+                  <div class="col m9 s12">
+                    <blockquote class="left-align"><i class="icon icon-quote-left"></i>   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ratione voluptate perferendis odit, inventore magni eos, quisquam qui possimus, perspiciatis, harum vero accusamus officiis! Obcaecati, aliquid, corporis. Culpa, deleniti, accusantium."
+                      <h6 class="left-align">- A Proud Customer</h6>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item black-text" href="#one!">
+                <div class="row">
+                  <div class="col m3 s12"><img class="img" src="https://randomuser.me/api/portraits/women/96.jpg"></div>
+                  <div class="col m9 s12">
+                    <blockquote class="left-align"><i class="icon icon-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, odio non laboriosam fugiat qui eos sunt, omnis dolor laborum."
+                      <h6 class="left-align">- A Proud Customer</h6>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -115,9 +151,9 @@
             </div>
             <div class="col s4">
               <ul>
-                <li><a class="social" href="#"><i class="icon icon-whatsapp"></i>
+                <li><a class="social"><i class="icon icon-whatsapp"></i>
                     <p class="white-text">+58 416 - 758.89.41</p></a></li>
-                <li><a class="social" href="#"><i class="icon icon-phone"></i>
+                <li><a class="social"><i class="icon icon-phone"></i>
                     <p class="white-text">+58 416 - 758.89.41</p></a></li>
               </ul>
             </div>
@@ -128,7 +164,6 @@
         </div>
       </footer>
     </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+    <script>$('.carousel.carousel-slider').carousel({full_width: true});$('.carousel').carousel('next');$('.carousel').carousel('next', 3); // Move next n times.</script>
   </body>
 </html>

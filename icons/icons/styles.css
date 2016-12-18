@@ -53,19 +53,3 @@
 .icon-quote-left:before {
   content: "\65";
 }
-
-.icon{
-  color:black;
-  font-size: 2em;
-  margin-right: 0.2em;
-}
-.social{
-  align-items: center;
-  display: flex;
-}
-.social i{
-  align-content: center;
-}
-.social p{
-  margin: 0;
-}
