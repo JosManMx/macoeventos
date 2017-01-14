@@ -16,80 +16,85 @@
   <body>
     <header>
       <div class="container">
-        <div class="row valign-wrapper"><img class="logo responsive-img" src="img/logo.png" alt="">
-          <div class="col l12 center-align">
-            <h3 class="slogan__text valign right-align">...¡tu slogan debe ir aqui!</h3>
+        <div class="row valign-wrapper"><img class="logo responsive-img brand-logo" src="img/logo.png" alt="">
+          <div class="col l12 slogan center-align hide-on-small-only">
+            <h3 class="slogan__text valign right">...¡tu slogan debe ir aqui!</h3>
           </div>
         </div>
       </div>
       <nav>
         <div class="container">
-          <div class="nav-wrapper">
-            <ul class="right hide-on-med-and-down uppercase" id="nav-mobile">
-              <li class="nav__item"> <a>Inicio</a></li>
+          <div class="nav-wrapper"><a class="button-collapse right" href="#" data-activates="mobile-demo"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down uppercase">
+              <li class="nav__item"><a>Inicio</a></li>
               <li class="nav__item"><a>Servicios</a></li>
               <li class="nav__item"><a>Promociones</a></li>
-              <li class="nav__item"> <a>Contacto</a></li>
+              <li class="nav__item"><a>Contacto</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><img class="responsive-img" src="img/logo.png" alt=""></li>
+              <ul class="nav-mobile uppercase">
+                <li class="nav__item"><a>Inicio</a></li>
+                <li class="nav__item"><a>Servicios</a></li>
+                <li class="nav__item"><a>Promociones</a></li>
+                <li class="nav__item"><a>Contacto</a></li>
+              </ul>
+              <li class="nav__item">
+                <div class="slogan">
+                  <h3 class="slogan__text-nav">...¡tu slogan debe ir aqui!</h3>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
     <div class="container content">
-      <div class="carousel carousel-slider"><a class="carousel-item"><img src="img/slider-01.jpg" alt="" href="#one!"></a><a class="carousel-item"><img src="img/slider-02.jpg" alt="" href="#two!"></a><a class="carousel-item"><img src="img/slider-03.jpg" alt="" href="#three!"></a></div>
+      <div class="carousel carousel-slider"><a class="carousel-item" href="#one!"><img src="img/slider-01.jpg" alt="" href="#one!"></a><a class="carousel-item" href="#two!"><img src="img/slider-02.jpg" alt="" href="#two!"></a><a class="carousel-item" href="#three!"><img src="img/slider-03.jpg" alt="" href="#three!"></a></div>
       <section>
         <h4 class="center-align uppercase">Tenemos los mejores servicios</h4>
-        <div class="maincontent">
-          <article>
-            <div class="row valign-wrapper">
-              <div class="col l4 s12 offset-l1 article__img"><img class="responsive-img" src="http://lorempixel.com/400/300/" alt=""></div>
-              <div class="col l6 s12 article__text">
-                <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.</p>
-              </div>
-              <div class="col l1"></div>
+        <div class="index">
+          <div class="row">
+            <div class="col s12 m5"><img class="responsive-img block-center" src="http://lorempixel.com/400/300/" alt=""></div>
+            <div class="col s12 m7">
+              <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error possimus eveniet voluptas est minima reiciendis natus vel sit necessitatibus veritatis voluptate dolores quis iusto nemo amet, eum vero accusamus ex.</p>
             </div>
-          </article>
-          <article>
-            <div class="row valign-wrapper">
-              <div class="col l1"></div>
-              <div class="col l6 s12 article__text">
-                <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.</p>
-              </div>
-              <div class="col l4 s12 article__img"><img class="responsive-img" src="http://lorempixel.com/400/300/" alt=""></div>
-              <div class="col l1"></div>
+          </div>
+          <div class="row">
+            <div class="col s12 m5"><img class="responsive-img block-center" src="http://lorempixel.com/400/300/" alt=""></div>
+            <div class="col s12 m7">
+              <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error possimus eveniet voluptas est minima reiciendis natus vel sit necessitatibus veritatis voluptate dolores quis iusto nemo amet, eum vero accusamus ex.</p>
             </div>
-          </article>
+          </div>
         </div>
       </section>
       <section class="waitlist">
-        <div class="container">
-          <div class="row valign-wrapper">
-            <form class="col l6 s12 waitlist__form">
-              <div class="row">
-                <div class="input-field col l12">
-                  <input class="validate" id="icon_prefix" type="text">
-                  <label for="icon_prefix">Nombre Completo</label>
-                </div>
-                <div class="input-field col l12">
-                  <input class="validate" id="email" type="email">
-                  <label for="email" data-error="El correo es incorrecto" data-success="Es Correcto">Email</label>
-                </div>
-                <div class="input-field col l12">
-                  <input class="validate" id="tel" type="tel">
-                  <label for="tel">Número de Telefono</label>
-                </div>
-                <div class="input-field col l12">
-                  <textarea class="materialize-textarea" id="textarea1"></textarea>
-                  <label class="white-text" for="textarea1">Descripción de su Solicitud</label>
-                </div>
-                <div class="col s6"></div>
-                <div class="col s6">
-                  <button class="btn waves-effect waves-macodarkblue white macodarkblue-text tooltipped" type="submit" name="action" data-position="left" data-delay="50" data-tooltip="Gracias por confiar en nosotros">Enviar</button>
-                </div>
+        <div class="row container-flex">
+          <div class="col l5 s12 waitlist__text">
+            <h4 class="valign center-align uppercase">Solicita tu cotización en Linea</h4>
+          </div>
+          <div class="col l7 s12 waitlist__form">
+            <form></form>
+            <div class="row">
+              <div class="input-field col s12">
+                <input class="validate" id="icon_prefix" type="text">
+                <label for="icon_prefix">Nombre Completo</label>
               </div>
-            </form>
-            <div class="col l6 s12 waitlist__text">
-              <h4 class="valign center-align uppercase">Solicita tu cotización en Linea</h4>
+              <div class="input-field col s12">
+                <input class="validate" id="email" type="email">
+                <label for="email" data-error="El correo es incorrecto" data-success="Es Correcto">Email</label>
+              </div>
+              <div class="input-field col s12">
+                <input class="validate" id="tel" type="tel">
+                <label for="tel">Número de Telefono</label>
+              </div>
+              <div class="input-field col s12">
+                <textarea class="materialize-textarea" id="textarea1"></textarea>
+                <label class="white-text" for="textarea1">Descripción de su Solicitud</label>
+              </div>
+              <div class="col s12">
+                <button class="btn waves-effect waves-macodarkblue white macodarkblue-text tooltipped right" type="submit" name="action" data-position="bottom" data-delay="50" data-tooltip="¡Gracias por confiar en nosotros!">Enviar</button>
+              </div>
             </div>
           </div>
         </div>
@@ -136,34 +141,38 @@
         </div>
       </section>
       <footer class="page-footer">
-        <div class="container">
-          <div class="row withoutmargin valign-wrapper">
-            <div class="col s4">
-              <p class="white-text uppercase left-align">Recuerda Agregarnos a tus redes Sociales</p>
-            </div>
-            <div class="col s4">
-              <ul class="glyphs character-mapping">
+        <div class="row footer-social">
+          <div class="col s12 m4 l4">
+            <p class="white-text uppercase center-on-small-only">Recuerda Agregarnos a tus redes Sociales</p>
+          </div>
+          <div class="col m8 social-list">
+            <div class="col m5">
+              <ul class="glyphs character-mapping center-on-small-only">
                 <li><a class="social" href="#"><i class="icon icon-facebook"></i>
                     <p class="white-text">Maco Eventos</p></a></li>
                 <li><a class="social" href="#"><i class="icon icon-twitter"></i>
                     <p class="white-text">@macoeventos</p></a></li>
               </ul>
             </div>
-            <div class="col s4">
-              <ul>
+            <div class="col m7">
+              <ul class="center-on-small-only">
                 <li><a class="social"><i class="icon icon-whatsapp"></i>
-                    <p class="white-text">+58 416 - 758.89.41</p></a></li>
+                    <p class="white-text left-align">+58 416 - 758.89.41</p></a></li>
                 <li><a class="social"><i class="icon icon-phone"></i>
-                    <p class="white-text">+58 416 - 758.89.41</p></a></li>
+                    <p class="white-text left-align">+58 416 - 758.89.41</p></a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
-          <p class="right-align withoutmargin uppercase">Sitio Web Diseñado y Desarrollado por JosTech</p>
+          <p class="withoutmargin">&copy; 2017 MacoProducciones, All rights reserved.</p>
+          <p class="withoutmargin">Powered by JosTech</p>
         </div>
       </footer>
     </div>
-    <script>$('.carousel.carousel-slider').carousel({full_width: true});$('.carousel').carousel('next');$('.carousel').carousel('next', 3); // Move next n times.</script>
+    <script>
+      $('.carousel.carousel-slider').carousel({full_width: true});$('.carousel').carousel('next');$('.carousel').carousel('next', 3); // Move next n times.
+      $(".button-collapse").sideNav();
+    </script>
   </body>
 </html>

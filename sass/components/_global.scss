@@ -348,8 +348,19 @@ footer.page-footer {
   // margin-top: 20px;
   // padding-top: 20px;
   background-color: $footer-bg-color;
+  @media screen and (min-width: 600px){
+    padding:1rem 2rem 0;
+  }
 
   .footer-copyright {
+    @media screen and (min-width: 600px){
+        margin: 1rem -2rem 0;
+    }
+    text-align: center;
+    @media screen and (min-width: 750px){
+      display: flex;
+      justify-content: space-between;
+    }
     overflow: hidden;
     // height: 50px;
     // line-height: 50px;
@@ -357,6 +368,23 @@ footer.page-footer {
     background-color: black;
     @extend .light;
     padding:0.5em;
+  }
+  .footer-social{
+    @media screen and (min-width: 600px){
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      max-width:600px;
+      margin:auto;
+    }
+  }
+  .social-list{
+  width: 204px;
+  margin: auto;
+  float: none !important;
+    ul{
+      margin:0;
+    }
   }
 }
 
@@ -798,4 +826,25 @@ nav ul a span.badge {
 
 .no-padding {
   padding: 0 !important;
+}
+
+/* By J Rafael Otero
+   ========================================================================== */
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+.block-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-flex{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.withoutmargin{
+  margin:0;
 }

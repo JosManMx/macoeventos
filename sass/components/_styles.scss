@@ -1,44 +1,101 @@
-
+/*===========================================================================
+   Styles Complete
+   ========================================================================== */
 body{
 	background-image: url("../img/motivo.png");
 }
+
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
 header{
 	background-color: $azulclaro;
 }
 .logo{
-	position: absolute;
-	top: 0em;
-	left: 15%;
-	width: 250px;
-	height: auto;
+  width: 250px;
+  height: auto;
+  margin: auto;
+	margin-bottom: -20px;
+  @media screen and (min-width: 600px){
+    margin-bottom: -70px;
+  }
 }
-.slogan__text{
-	font-family: "Ranga";
-	color:white;
-	margin-right:1rem;
-	font-weight: 100;
-
+.slogan{
+  font-family: "Ranga";
+  color:white;
+  margin-right:1rem;
+  font-weight: 100;
+  text-align: right;
+  &__text{
+    &-nav{
+      color:$azuloscuro;
+    }
+  }
 }
 nav{
 	background-color: $azuloscuro;
 	.nav__item{
 		font-family: "Montserrat";
 		font-weight: 700;
+    text-align: center;
 	}
 }
+#mobile-demo{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  &>li:first-child{
+    display: flex;
+    justify-content:center;
+    padding:1rem;
+    & img{
+    height:20vh;
+    margin:auto;
+    }
+  }
+}
+
+/* ==========================================================================
+   CONTENT
+   ========================================================================== */
 
 .content{
 	background-color: #fff;
-	-webkit-box-shadow: 0 0 13px rgba(0,0,0,.63);
-	-moz-box-shadow: 0 0 13px rgba(0,0,0,.63);
 	box-shadow: 0 0 13px rgba(0,0,0,.63);
 }
-.uppercase{
-	text-transform:uppercase;
-	font-weight: 700;
+
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+.index{
+  padding: 0 8.33%;
+  text-align:center;
+  & .row{
+    @media screen and (min-width:601px){
+    align-items: center;
+    display: flex;
+      &:nth-child(even){
+        .col:first-child{order:1}
+      }
+    }
+  }
 }
+
+
+
+/* ==========================================================================
+   Contact Form
+   ========================================================================== */
+
 .waitlist{
 	background-color: $azuloscuro;
+  padding: 1rem;
+  @media screen and (min-width:600px){
+  padding: 1rem 3rem;
+  }
 	&__form .row .input{
 		margin-left: 0;
 		color: #fff;
@@ -50,9 +107,20 @@ nav{
 	}
 }
 
+/* Form Order */
+@media screen and (min-width:992px){
+  .waitlist{
+    &__text{
+      order:1;
+      align-self: center;
+    }
+  }
+}
 
+
+
+// bOTON
 .macodarkblue{
-	background-color: $azuloscuro;
 	&-text{
 		color:$azulclaro;
 	}
@@ -114,12 +182,11 @@ nav{
    	box-shadow: 0 1px 0 0 #fff!important;
    }
 
-.withoutmargin{
-	margin:0;
-}
 
 
-
+/* ==========================================================================
+   Testimonials
+   ========================================================================== */
 
 // QUOTE CAROUSEL
 .quote-carousel{
@@ -152,3 +219,18 @@ blockquote{
 }
 
 // --quote carousel
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+
+
+/* Social
+   ========================================================================== */
+
+
+
+/* Copy Right
+   ========================================================================== */

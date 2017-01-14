@@ -17,71 +17,65 @@ html
 		header
 			.container
 				.row.valign-wrapper
-					img(src="img/logo.png", alt="").logo.responsive-img
-					.col.l12.center-align
-						h3.slogan__text.valign.right-align ...¡tu slogan debe ir aqui!
+					img(src="img/logo.png", alt="").logo.responsive-img.brand-logo
+					.col.l12.slogan.center-align.hide-on-small-only
+						h3.slogan__text.valign.right ...¡tu slogan debe ir aqui!
 			nav
 				.container
 					.nav-wrapper
-						ul#nav-mobile.right.hide-on-med-and-down.uppercase
-							li.nav__item 
-								a Inicio
-							li.nav__item
-								a Servicios
-							li.nav__item
-								a Promociones
-							li.nav__item 
-								a Contacto
-		
+						a.button-collapse.right(href="#", data-activates='mobile-demo'): i.material-icons menu
+						ul.right.hide-on-med-and-down.uppercase
+							li.nav__item: a Inicio
+							li.nav__item: a Servicios
+							li.nav__item: a Promociones
+							li.nav__item: a Contacto
+						ul#mobile-demo.side-nav
+							li: img(src="img/logo.png", alt="").responsive-img
+							ul.nav-mobile.uppercase
+								li.nav__item: a Inicio
+								li.nav__item: a Servicios
+								li.nav__item: a Promociones
+								li.nav__item: a Contacto
+							li.nav__item: .slogan: h3.slogan__text-nav ...¡tu slogan debe ir aqui!
 		.container.content
 			.carousel.carousel-slider
-				a.carousel-item
-					img(src="img/slider-01.jpg", alt="" href="#one!")
-				a.carousel-item
-					img(src="img/slider-02.jpg", alt="" href="#two!")
-				a.carousel-item
-					img(src="img/slider-03.jpg", alt="" href="#three!")
+				a.carousel-item(href="#one!"): img(src="img/slider-01.jpg", alt="" href="#one!")
+				a.carousel-item(href="#two!"): img(src="img/slider-02.jpg", alt="" href="#two!")
+				a.carousel-item(href="#three!"): img(src="img/slider-03.jpg", alt="" href="#three!")
 			section
 				h4.center-align.uppercase Tenemos los mejores servicios
-				.maincontent
-					article
-							.row.valign-wrapper
-								.col.l4.s12.offset-l1.article__img
-									img.responsive-img(src="http://lorempixel.com/400/300/", alt="")
-								.col.l6.s12.article__text
-									p.center-align Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.
-								.col.l1
-					article
-							.row.valign-wrapper
-								.col.l1
-								.col.l6.s12.article__text
-									p.center-align Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam, reiciendis incidunt voluptatem. Odit, possimus, similique. Fugiat quasi quae, unde perferendis modi dolor atque temporibus, corporis nemo. Saepe, facere, tempora.
-								.col.l4.s12.article__img
-									img.responsive-img(src="http://lorempixel.com/400/300/", alt="")
-								.col.l1
-
+				.index
+					.row
+						.col.s12.m5
+							img.responsive-img.block-center(src="http://lorempixel.com/400/300/", alt="")
+						.col.s12.m7
+							p.center-align Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error possimus eveniet voluptas est minima reiciendis natus vel sit necessitatibus veritatis voluptate dolores quis iusto nemo amet, eum vero accusamus ex.
+					.row
+						.col.s12.m5
+							img.responsive-img.block-center(src="http://lorempixel.com/400/300/", alt="")
+						.col.s12.m7
+							p.center-align Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error possimus eveniet voluptas est minima reiciendis natus vel sit necessitatibus veritatis voluptate dolores quis iusto nemo amet, eum vero accusamus ex.
 			section.waitlist
-				.container
-					.row.valign-wrapper
-						form.col.l6.s12.waitlist__form
+					.row.container-flex
+						.col.l5.s12.waitlist__text
+								h4.valign.center-align.uppercase Solicita tu cotización en Linea
+						.col.l7.s12.waitlist__form
+							form
 							.row
-								.input-field.col.l12
+								.input-field.col.s12
 									input#icon_prefix.validate(type="text")
 									label(for="icon_prefix") Nombre Completo
-								.input-field.col.l12
+								.input-field.col.s12
 									input#email.validate(type="email")
 									label(for="email" data-error="El correo es incorrecto" data-success="Es Correcto") Email
-								.input-field.col.l12
+								.input-field.col.s12
 									input#tel.validate(type="tel")
 									label(for="tel") Número de Telefono
-								.input-field.col.l12
+								.input-field.col.s12
 									textarea#textarea1.materialize-textarea
 									label(for="textarea1").white-text Descripción de su Solicitud
-								.col.s6
-								.col.s6
-									button.btn.waves-effect.waves-macodarkblue.white.macodarkblue-text.tooltipped(type="submit", name="action", data-position="left", data-delay="50", data-tooltip="Gracias por confiar en nosotros") Enviar
-						.col.l6.s12.waitlist__text
-								h4.valign.center-align.uppercase Solicita tu cotización en Linea
+								.col.s12
+									button.btn.waves-effect.waves-macodarkblue.white.macodarkblue-text.tooltipped.right(type="submit", name="action", data-position="bottom", data-delay="50", data-tooltip="¡Gracias por confiar en nosotros!") Enviar
 
 			section
 				.row
@@ -118,12 +112,12 @@ html
 											h6.left-align - A Proud Customer
 				
 			footer.page-footer
-				.container
-					.row.withoutmargin.valign-wrapper
-						.col.s4
-							p.white-text.uppercase.left-align Recuerda Agregarnos a tus redes Sociales
-						.col.s4
-							ul.glyphs.character-mapping
+				.row.footer-social
+					.col.s12.m4.l4
+						p.white-text.uppercase.center-on-small-only Recuerda Agregarnos a tus redes Sociales
+					.col.m8.social-list
+						.col.m5
+							ul.glyphs.character-mapping.center-on-small-only
 								li
 									a(href="#").social
 										i.icon.icon-facebook
@@ -132,18 +126,20 @@ html
 									a(href="#").social
 										i.icon.icon-twitter
 										p.white-text @macoeventos
-						.col.s4
-							ul
+						.col.m7
+							ul.center-on-small-only
 								li
 									a.social
 										i.icon.icon-whatsapp
-										p.white-text +58 416 - 758.89.41
+										p.white-text.left-align +58 416 - 758.89.41
 								li
 									a.social
 										i.icon.icon-phone
-										p.white-text +58 416 - 758.89.41
+										p.white-text.left-align +58 416 - 758.89.41
 				.footer-copyright
-					p.right-align.withoutmargin.uppercase Sitio Web Diseñado y Desarrollado por JosTech
+					p.withoutmargin &copy; 2017 MacoProducciones, All rights reserved.
+					p.withoutmargin Powered by JosTech
 		script.
 			$('.carousel.carousel-slider').carousel({full_width: true});$('.carousel').carousel('next');$('.carousel').carousel('next', 3); // Move next n times.
+			$(".button-collapse").sideNav();
 		
