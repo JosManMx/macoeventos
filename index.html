@@ -74,28 +74,29 @@
             <h4 class="valign center-align uppercase">Solicita tu cotización en Linea</h4>
           </div>
           <div class="col l7 s12 waitlist__form">
-            <form></form>
-            <div class="row">
-              <div class="input-field col s12">
-                <input class="validate" id="icon_prefix" type="text">
-                <label for="icon_prefix">Nombre Completo</label>
+            <form action="https://formspree.io/oscar_alvarez91@hotmail.com" method="POST">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input class="validate" id="icon_prefix" type="text" name="Nombre">
+                  <label for="icon_prefix">Nombre Completo</label>
+                </div>
+                <div class="input-field col s12">
+                  <input class="validate" id="email" type="email" name="Nombre">
+                  <label for="email" data-error="El correo es incorrecto" data-success="Es Correcto">Email</label>
+                </div>
+                <div class="input-field col s12">
+                  <input class="validate" id="tel" type="tel" name="telefono">
+                  <label for="tel">Número de Telefono</label>
+                </div>
+                <div class="input-field col s12">
+                  <textarea class="materialize-textarea" id="textarea1" name="mensaje"></textarea>
+                  <label class="white-text" for="textarea1">Descripción de su Solicitud</label>
+                </div>
+                <div class="col s12">
+                  <button class="btn waves-effect waves-macodarkblue white macodarkblue-text tooltipped right" type="submit" name="action" data-position="bottom" data-delay="50" data-tooltip="¡Gracias por confiar en nosotros!">Enviar</button>
+                </div>
               </div>
-              <div class="input-field col s12">
-                <input class="validate" id="email" type="email">
-                <label for="email" data-error="El correo es incorrecto" data-success="Es Correcto">Email</label>
-              </div>
-              <div class="input-field col s12">
-                <input class="validate" id="tel" type="tel">
-                <label for="tel">Número de Telefono</label>
-              </div>
-              <div class="input-field col s12">
-                <textarea class="materialize-textarea" id="textarea1"></textarea>
-                <label class="white-text" for="textarea1">Descripción de su Solicitud</label>
-              </div>
-              <div class="col s12">
-                <button class="btn waves-effect waves-macodarkblue white macodarkblue-text tooltipped right" type="submit" name="action" data-position="bottom" data-delay="50" data-tooltip="¡Gracias por confiar en nosotros!">Enviar</button>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
       </section>
