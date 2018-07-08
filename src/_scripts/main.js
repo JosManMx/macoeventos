@@ -3,4 +3,8 @@
 
 'use strict';
 
-var $ = require('jquery');
+let $ = require('jquery');
+
+let H = require('../../node_modules/hammerjs/hammer.js');
+
+let M = require('../../node_modules/materialize-css/dist/js/materialize.min.js');
