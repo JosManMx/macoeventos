@@ -1,0 +1,49 @@
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+   header{
+    background-color: $azulclaro;
+  }
+  .logo{
+    width: 250px;
+    height: auto;
+    margin: auto;
+    margin-bottom: -20px;
+    @media screen and (min-width: 600px){
+      margin-bottom: -70px;
+    }
+  }
+  .slogan{
+    font-family: "Ranga";
+    color:white;
+    margin-right:1rem;
+    font-weight: 100;
+    text-align: right;
+    &__text{
+      &-nav{
+        color:$azuloscuro;
+      }
+    }
+  }
+  nav{
+    background-color: $azuloscuro;
+    .nav__item{
+      font-family: "Montserrat";
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+  #mobile-demo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    &>li:first-child{
+      display: flex;
+      justify-content:center;
+      padding:1rem;
+      & img{
+      height:20vh;
+      margin:auto;
+      }
+    }
+  }
