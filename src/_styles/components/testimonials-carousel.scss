@@ -1,0 +1,28 @@
+.quote-carousel{
+  height:220px !important;
+  max-width:85vw;
+  width:100%;
+  @media screen and (max-width: 600px) {
+  & {
+    height:340px !important;
+    }
+  }
+}
+
+.img{
+  width:120px;
+  height:auto;
+  max-width:150px;
+  background-color: black;
+  border-radius:50%;
+}
+
+.indicator-item{
+  background-color: $primary-color-light !important;
+  &.active{
+    background-color: $primary-color-dark !important;
+  }
+}
+blockquote{
+  border-left-color: $primary-color;
+}

@@ -32,6 +32,7 @@ Layout
 ========================================================================= */
 
 @import "layout/header";
+@import "layout/content";
 
  
 /* END Layout
@@ -72,6 +73,10 @@ Layout
 @import "node_modules/materialize-css/sass/components/date_picker/default";
 @import "node_modules/materialize-css/sass/components/date_picker/default.date";
 @import "node_modules/materialize-css/sass/components/date_picker/default.time";
+
+
+@import "components/form-home";
+@import "components/testimonials-carousel";
 
 
 /* END Components
