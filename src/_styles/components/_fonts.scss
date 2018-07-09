@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local(Montserrat Regular), 
+      url("#{$font-path}Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local(Montserrat Medium),
+      url("#{$font-path}Montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Ranga";
+  src: local(Ranga Bold),
+      url("#{$font-path}Ranga/Ranga-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
