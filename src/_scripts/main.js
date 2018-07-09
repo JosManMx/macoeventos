@@ -3,8 +3,10 @@
 
 'use strict';
 
-let $ = require('jquery');
+var $ = require('jquery');
 
-let H = require('../../node_modules/hammerjs/hammer.js');
+var H = require('hammerjs');
 
-let M = require('../../node_modules/materialize-css/dist/js/materialize.min.js');
+var Materialize = require('materialize-css');
+
+$('.carousel.carousel-slider').carousel({ fullWidth: true });
