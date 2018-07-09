@@ -1,0 +1,26 @@
+mixin form-home(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  div(class=spec.__class)&attributes(attributes)
+    section.waitlist
+      .row.container-flex
+        .col.l5.s12.waitlist__text
+            h4.valign.center-align.uppercase Solicita tu cotización en Linea
+        .col.l7.s12.waitlist__form
+          form(action="https://formspree.io/oscar_alvarez91@hotmail.com", method="POST")
+            .row
+              .input-field.col.s12
+                input#icon_prefix.validate(type="text", name="Nombre")
+                label(for="icon_prefix") Nombre Completo
+              .input-field.col.s12
+                input#email.validate(type="email", name="Nombre")
+                label(for="email" data-error="El correo es incorrecto" data-success="Es Correcto") Email
+              .input-field.col.s12
+                input#tel.validate(type="tel", name="telefono")
+                label(for="tel") Número de Telefono
+              .input-field.col.s12
+                textarea#textarea1.materialize-textarea(name="mensaje")
+                label(for="textarea1").white-text Descripción de su Solicitud
+              .col.s12
+                button.btn.waves-effect.waves-macodarkblue.white.macodarkblue-text.tooltipped.right(type="submit", name="action", data-position="bottom", data-delay="50", data-tooltip="¡Gracias por confiar en nosotros!") Enviar

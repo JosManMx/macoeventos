@@ -1,0 +1,33 @@
+mixin footer(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  div(class=spec.__class)&attributes(attributes)
+    footer.page-footer
+      .row.footer-social
+        .col.s12.m4.l4
+          p.white-text.uppercase.center-on-small-only Recuerda Agregarnos a tus redes Sociales
+        .col.m8.social-list
+          .col.m5
+            ul.glyphs.character-mapping.center-on-small-only
+              li
+                a(href="#").social
+                  i.icon.icon-facebook
+                  p.white-text Maco Eventos
+              li
+                a(href="#").social
+                  i.icon.icon-twitter
+                  p.white-text @macoeventos
+          .col.m7
+            ul.center-on-small-only
+              li
+                a.social
+                  i.icon.icon-whatsapp
+                  p.white-text.left-align +58 416 - 758.89.41
+              li
+                a.social
+                  i.icon.icon-phone
+                  p.white-text.left-align +58 416 - 758.89.41
+      .footer-copyright
+        p.withoutmargin &copy; 2017 MacoProducciones, All rights reserved.
+        p.withoutmargin Powered by JosTech

@@ -1,4 +1,55 @@
 extends _layouts/base
 
+include _modules/organisms/carousel-home/carousel-home
+include _modules/organisms/form-home/form-home
+
 block content
+  +carousel-home
+  section
+    h4.center-align.uppercase Tenemos los mejores servicios
+    .index
+      .row
+        .col.s12.m5 
+          img.responsive-img.block-center(src="images/maco-producciones-slider-01.jpg", alt="")
+        .col.s12.m7
+          p.center-align Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error possimus eveniet voluptas est minima reiciendis natus vel sit necessitatibus veritatis voluptate dolores quis iusto nemo amet, eum vero accusamus ex.
+      .row
+        .col.s12.m5
+          img.responsive-img.block-center(src="images/maco-producciones-slider-01.jpg", alt="")
+        .col.s12.m7
+          p.center-align Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error possimus eveniet voluptas est minima reiciendis natus vel sit necessitatibus veritatis voluptate dolores quis iusto nemo amet, eum vero accusamus ex.
+  +form-home
+  section
+    .row
+      .container
+        h4.center-align.uppercase Nuestros clientes nos respaldan
+      .container
+        .carousel.carousel-slider.center.quote-carousel(data-indicators="true")
+          .carousel-item.black-text(href="#one!")
+            .row
+              .col.m3.s12
+                img.img(src='https://randomuser.me/api/portraits/women/76.jpg')
+              .col.m9.s12
+                blockquote.left-align
+                  i.icon.icon-quote-left
+                  |   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, odio non laboriosam fugiat qui eos sunt, omnis dolor laborum."
+                  h6.left-align - A Proud Customer
+          .carousel-item.black-text(href="#one!")
+            .row
+              .col.m3.s12
+                img.img(src='https://randomuser.me/api/portraits/men/76.jpg')
+              .col.m9.s12
+                blockquote.left-align
+                  i.icon.icon-quote-left
+                  |    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ratione voluptate perferendis odit, inventore magni eos, quisquam qui possimus, perspiciatis, harum vero accusamus officiis! Obcaecati, aliquid, corporis. Culpa, deleniti, accusantium."
+                  h6.left-align - A Proud Customer
+          .carousel-item.black-text(href="#one!")
+            .row
+              .col.m3.s12
+                img.img(src='https://randomuser.me/api/portraits/women/96.jpg')
+              .col.m9.s12
+                blockquote.left-align
+                  i.icon.icon-quote-left
+                  |   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, odio non laboriosam fugiat qui eos sunt, omnis dolor laborum."
+                  h6.left-align - A Proud Customer
   
