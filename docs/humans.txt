@@ -1,0 +1,65 @@
+/* TEAM */
+	Web design and development by
+		Jose R. Otero
+		Twitter: https://twitter.com/JosManMx
+		Facebook: https://www.facebook.com/j.rafaeloterolopez
+		Linkedin: https://www.linkedin.com/in/jrafaeloterolopez
+		From:Barquisimeto, Lara
+		Country: Venezuela
+
+
+/* SITE */
+	Last update:2017/01
+	Language: Spanish
+	Doctype:HTML
+	IDE: SASS, PUG, Materialize, Photoshop, Visual Studio Code, Yeogurt
+
+
+Powered by
+                                                                                                                                                       
+          `-                                                                                                                                          
+           o.     :-``                                                                                                                                
+           :y`  /.`ssoyo/:.`                                                                                                                          
+           `ho  .y: /ysyhhhhyo/:.                                                                                                                     
+            oh/  :ho`.oysyhhhhhhhhs+/-`                                                                                                               
+            :hh-  +hy: -ssshhhhhhhhhhhhyo/:.`                                                                                                         
+            `hhh. `shho``/yssyhhhhhhhhhhhyysso/-`                                                                                                     
+             ohhy` .hhhy+.`/sysyhhhyyyyyyhhhhhhhyso++/:-.                         `-/- .-/++//-.                                                      
+             -hhhy/`:hhhhy+.`:syssyhhhhyyoo+/:-:osyyyyyys.                    .:-`+:-:+ossssssso+/+++/::-                                             
+              yhhhhy+:+yhhhho.`-oyys+:...---.```.:++oossyo                   /+hs//+yhhhhhhhhyyyysssssoo+                                             
+              `:shhhhho::ohhhho.`-::/osyyhhhhyyyso+//:.`+h+              `.-oyhoss+//::/+sy:.`-//+++/+so                                              
+                 ./yhhhhs/-/shhhyhhhhhhhhhyyyyyssssyhhy-`oh+          `-/+yhhhyho``.:+syhhhy- .hhhh:``-`                                              
+                   `-oyhhhy+--+yhhysso/:-..`...--:/:-/sy/`os:       .:/oyhhhhhho/oyhhhhhhhhhh/`/hhh+.                                                 
+                      `:shhhho-...```..-:/+osyyhhhyhs+--:- ``  `.-:/oyhhhhyyhs/yyyyssssssosyhhs.shy/.                                                 
+                         ./yhhhs+ossyhhhhhhhhhyo:...----`  ./+sssoosyssssssy/` oyyhhhhhhhhysoss:`-`                                                   
+                           `-oyyyssoo++/////::-.``:///+o/`/oo++//+/+ooossso/::-:::://+osyyyhh/`                                                       
+``                 .++        `...-:/+ossyyhhys:.-yyhhyhssyho:hhhhhhhhhyo+oyhhyhysso+/:--oyhhys                                                       
+`/o+:-``        `:ohys:-..:/+osyyyys++osyyyo:ohoh:.:yyhhhhhho shhhhhyo:/oysyyyhhhysoooo+:/hhhhs                                                       
+  -shhhys+/-.`.+yhhsohhhh+hhys+:.`yhhhyo/-.`+hhshh./yyyyyohhy .hhhs/--osyhhhhhhhhhhhhhhy  oys+`                                                       
+    -shhhhhhhyhhhhhoshhhh+/-`    `-://++oyhyo++yyys/shhhhh+hh  :/-:ossyyyssyysssssssyyhy  `                                                           
+      -shhhhhhhhhhhho/++:         `-oyysyyyyhhyoso/osyhhhys:-  .+yhhhhhhhhyyyssoo++shhs/`                                                             
+        :yyso+/:-..`            `:yhyshhhhhs/:-..-/sy+yho      -/+o:hhsyhs`       -sysyhs:                                                            
+                        `.--syyyyohhyoyss/-       .hhhoy/           :hh+yh`       /hhy+osho.                                                          
+                      `sysyhhhhhhs+oso+:`         .osyo.             oys+-         ```/yysoo-                                                         
+                     .ssshhs+::. ``             `ohhhh`              oyoy`              :yhhyo-                                                       
+                     oyhyso:                     `ohsyh:--.-         .yhhy+:-             :yhhhyo++o.                                                 
+                    :sssyhhh+                     `/sysshhos/         :shhho+             `ossso+/+//                                                 
+                     -::::-`                         `---::.`          -.::.                                                                          
+       `....` .--------------------------------------------------------------------------------------.  ....`                    `.................`  
+       -oooo. :oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+ `oooo.                 .:++ooooooooooooooooo-  
+       -oooo- :++++++++++++++++++++++++++++++++++++++++++ooooo+++++++++++++++++++++++++++++++++++++++/ `oooo.               ./ooooooooooooooooooooo-  
+       -oooo-  ``````..--..```````````.----------.```````:oooo.```````````..--..````````````.---.````  `oooo. ```          .+oooooo++++++++++++++++-  
+       -oooo-     ./++ooo+++/.      -++oooooooooo/       :oooo`        .:+++ooo++/-`    `-/++ooo++/-`  `oooo/+++++/:.      +ooooo+.````````````````   
+       -oooo-   ./oooo++++oooo/`   /oooo+++++++++/       :oooo`      `/oooo+++ooooo/   .+oooo+++oooo+. `oooooooooooo+/`   `oooooo-                    
+       -oooo-  `+ooo/.````-+ooo+` `oooo:``````````       :oooo`      +ooo+-``:oooo:`  -oooo:.````:+/.  `oooo+:.`.-+ooo/    +ooooo+.                   
+       -oooo-  :ooo+       `+ooo-  +ooo+++++++/:-`       :oooo`     -oooo` `/ooo/.    +ooo:       `    `oooo-     .oooo.   -oooooo++//////////-.`     
+       /oooo.  /ooo/        +ooo:  `:+ooooooooooo+.      :oooo`     -oooo`-+oo+-     `oooo-            `oooo.     `oooo.    .+oooooooooooooooooo+:`   
+`   `./oooo/   -oooo-`    `:oooo.    `.-------+ooo+      :oooo`     `+ooo+ooo:` .:`   /ooo+.     `:.   `oooo.     `oooo.     `-/+ooooooooooooooooo+.  
+:///++oooo/`    :+ooo+:::/+ooo+-  `:::::::::::+ooo/      :oooo`      -+ooooo+::/oo+:  `/ooo+/:-:/+oo/` `oooo.     `oooo.        `.----------/+ooooo+. 
+/oooooo+/.       ./+oooooooo+/.   .ooooooooooooo+/`      :oooo`       `:+oooooooo+/.   `-++oooooooo+:` `oooo.     `oooo.                     `+ooooo: 
+-://:-.`           `.:://:-.`     `///////////:-.        -////`         `.-://::-`        .-:///:-.`   `////.     `////.                     `+ooooo/ 
+`...........................................................................................................................................-+oooooo. 
+/ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+:  
+/ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+/.   
+:+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/-.     
+ ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````        
