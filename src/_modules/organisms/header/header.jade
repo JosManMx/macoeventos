@@ -1,0 +1,28 @@
+mixin header(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  div(class=spec.__class)&attributes(attributes)
+    header
+      .container
+        .row.valign-wrapper
+          img(src="images/maco-producciones-logo.png", alt="").logo.responsive-img.brand-logo
+          .col.l12.slogan.center-align.hide-on-small-only
+            h3.slogan__text.valign.right ...¡tu slogan debe ir aqui!
+      nav
+        .container
+          .nav-wrapper
+            a.button-collapse.right(href="#", data-activates='mobile-demo'): i.material-icons menu
+            ul.right.hide-on-med-and-down.uppercase
+              li.nav__item: a Inicio
+              li.nav__item: a Servicios
+              li.nav__item: a Promociones
+              li.nav__item: a Contacto
+            ul#mobile-demo.side-nav
+              li: img(src="images/maco-producciones-logo.png", alt="").responsive-img
+              ul.nav-mobile.uppercase
+                li.nav__item: a Inicio
+                li.nav__item: a Servicios
+                li.nav__item: a Promociones
+                li.nav__item: a Contacto
+              li.nav__item: .slogan: h3.slogan__text-nav ...¡tu slogan debe ir aqui!

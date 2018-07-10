@@ -1,48 +1,54 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
-===========
+# Macoeventos readme
 
-[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize)[![devDependency Status](https://david-dm.org/Dogfalo/materialize/dev-status.svg)](https://david-dm.org/Dogfalo/materialize#info=devDependencies)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Generated on 2018-07-06 using
+[generator-yeogurt@2.0.1](https://github.com/larsonjj/generator-yeogurt)
 
-[Materialize](http://materializecss.com/), a CSS Framework based on material design
+## Description
 
-### Current Version : v0.97.7
+This is an example readme file.
+Describe your site/app here.
 
-## Sass Requirements:
-- Ruby Sass 3.3+, LibSass 0.6+
+## Technologies used
 
-## Supported Browsers:
-Chrome 35+, Firefox 31+, Safari 7+, IE 10+
+JavaScript
+- [Browserify](http://browserify.org/)
+- [Node](https://nodejs.org/)
 
-## Changelog
-- v0.97.7 (July 23rd)
-  - Basic horizontal cards
-  - Carousel bug fixes and new features
-  - Updated sidenav styles and new component
-  - Meteor package now supports Sass
-  - Autocomplete form component
-  - Chips jQuery plugin
-- v0.97.6 (April 1st)
-  - **Removed deprecated material icons from project**
-  - **Changed /font directory to /fonts**
-  - Datepicker and ScrollSpy now compatible with jQuery 2.2.x
-  - Responsive tables now work with empty cells
-  - Added focus states to checkboxes, switches, and radio buttons
-  - Sidenav and Modals no longer cause flicker with scrollbar
-  - Materialbox overflow and z-index issues fixed
-  - Added new option for Card actions within a Card reveal
-- v0.97.5 (Dec 21, 2015)
-  - Fixed Meteor package crash
-- v0.97.4 (Dec 20, 2015)
-  - Added Jasmine testing with Travis CI
-  - Select bugfixes
-  - Grid Offset bugfix
-  - Dropdown overflow bugfix
-  - Range slider error bugfix
+Styles
+- [Sass](http://sass-lang.com/) via ([node-sass](https://github.com/sass/node-sass))
+
+Markup
+- [Jade](http://jade-lang.com/)
+
+Optimization
+- [Imagemin](https://github.com/imagemin/imagemin)
+- [Uglify](https://github.com/mishoo/UglifyJS)
+
+Server
+- [BrowserSync](http://www.browsersync.io/)
+
+Linting
+- [ESlint](http://eslint.org/)
+
+Automation
+- [Gulp](http://gulpjs.com)
+
+Code Management
+- [Editorconfig](http://editorconfig.org/)
+- [Git](https://git-scm.com/)
 
 
+## Automated tasks
 
-## Contributing
-[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
+This project uses [Gulp](http://gulpjs.com) to run automated tasks for development and production builds.
+The tasks are as follows:
 
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
+`gulp --production`: Same as `gulp serve --production` also run `gulp test` and  not boot up production server
+
+`gulp serve`: Compiles preprocessors and boots up development server
+`gulp serve --open`: Same as `gulp serve` but will also open up site/app in your default browser
+`gulp serve --production`: Same as `gulp serve` but will run all production tasks so you can view the site/app in it's final optimized form
+
+`gulp test`: Lints all `*.js` file in the `source` folder using eslint
+
+***Adding the `--debug` option to any gulp task displays extra debugging information (ex. data being loaded into your templates)***
